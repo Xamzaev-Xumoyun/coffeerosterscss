@@ -1,0 +1,51 @@
+.header{
+  margin: 44px 0px;
+ 
+}
+
+.header__box{
+  display: flex;
+  align-items: center;
+}
+  
+
+
+
+.header__box__image{
+  margin-right: auto;
+  
+  
+  
+}
+
+.header__item{
+  display: flex;
+}
+
+
+.header__list{
+  list-style: none;
+
+
+}
+
+.header__link{
+  text-decoration: none;
+  color:#83888F;
+  letter-spacing: 0.92px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+
+
+  &:hover{
+    letter-spacing: 0.92px;
+    color: 
+    #333D4B;
+    }
+
+}
+  
+.header__link--active{
+  margin: 0px 33px;
+}
