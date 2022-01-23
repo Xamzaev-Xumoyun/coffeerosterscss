@@ -1,41 +1,64 @@
 .section{
-  margin-bottom: 168px;
+  background-image: url(../image/warch.jpg);
+  background-position: calc(80% + 320px ) , calc(50% + 200px);
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 70px;
+  
+  
+  
+  
+ 
+  background-repeat: no-repeat;
+  
 }
 
+
 .section__box{
-  background-image: url(../image/Bitmap.jpg);
-  background-size: cover;
-  border-radius: 10px;
+  padding-top: 154px;
+  padding-bottom: 128px;
 }
 
 
 .section__little__box{
-  padding: 137px 0px ;
-  padding-left: 87px;
+  width: 490px;
+   
+  
 }
 
 
-
-
-.section__text{
-  font-family: "Fraunces" , "serif";
-  font-size: 40px;
-  font-weight: 900;
-  line-height: 48px;
-  color: #FEFCF7;
+.section__box__herro{
   margin: 0px;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
 }
 
-.section__poragraf-case{
-  width: 445px;
-}
-.section__poragraf{
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-margin: 0px;
-margin-top: 24px;
-color: #FEFCF7
+.section__box__poragraf{
+  margin: 0px;
+  padding-left: 40px;
+  border-left: 3px solid #888 ;
+  line-height: 24px;
+  margin: 30px 0px;
+  font-weight: 400;
 
+}
+
+
+.section__box__link{
+  display: block;
+  // padding: 12px 38.5px;
+  padding: 12px 0px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #EA625C ;
+  opacity: 0.7;
+  color: #fff;
+  width: 183px;
+  font-weight: 700;
+
+  &:hover{
+    opacity: 1;
+  }
+
+  
 }

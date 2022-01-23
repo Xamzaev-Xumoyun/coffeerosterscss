@@ -1,49 +1,54 @@
-.section-our{
-  margin-bottom: 244px;
-}
-
-
-.section-our__image{
-  border-radius: 10px;
-  height: 520px;
-}
-
-
-
-
 .section-our__box{
-  margin-left: 85px;
   display: flex;
+  padding: 154px 0px;
   align-items: center;
-  
-  
-}
-
-.section-our__our-box{
-  margin-left: 125px;
 }
 
 
-.section-our__text{
-  font-family: "Fraunces" , "serif";
+.section-our__little__box{
+  width: 490px;
+  align-items: center;
+  margin-right: 110px;
+  vertical-align: middle;
+   
+  
+}
+
+
+.section-our__box__herro{
   margin: 0px;
-  font-size: 40px;
-  font-weight: 900;
-  line-height: 48px;
-  color:#333D4B;
-  
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
 }
 
-
-.section-our__box-poragraf{
-  width: 540px;
-
-}
-
-
-.section-our__poragraf{
+.section-our__box__poragraf{
+  margin: 0px;
+  padding-left: 40px;
+  border-left: 3px solid #888 ;
   font-weight: 400;
-  line-height: 26px;
-  margin: 0px;
-  margin-top: 32px;
+  line-height: 24px;
+  margin: 30px 0px;
+
+}
+
+
+.section-our__box__link{
+  display: block;
+  // padding: 12px 38.5px;
+  padding: 12px 0px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #EA625C ;
+  opacity: 0.7;
+  color: #fff;
+  font-weight: 700;
+  width: 183px;
+  transition:background-color 0.4s ease ;
+  
+ &:hover{
+   opacity: 1;
+
+ }
+
 }

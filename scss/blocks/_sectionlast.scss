@@ -1,49 +1,66 @@
 .section-last{
-  margin-bottom: 168px;
-}
-
-.section-last__list{
-  display: flex;
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-  margin-left: 85px;
-}
-
-
-.section-last__herro{
-  font-family: "Fraunces" , "serif";
-  color:#83888F;
-  font-size: 24px;
-  line-height: 32px;
-  font-weight: 900;
-  margin: 0px;
-  margin-left: 85px;
-  margin-bottom: 72px;
-}
-
+ background-image: url(../image/runners11.png);
+ background-size: cover;
   
-.section-last__item-text{
-  font-family: "Fraunces" , "serif";
-  font-size: 2em;
-  font-weight: 900;
-  line-height: 36px;
-  color:#121111;
-  margin-top: 45px;
-  margin-bottom: 24px ;
+  
+  
+  
+ 
+  background-repeat: no-repeat;
+  
 }
 
 
+.section-last__box{
+  padding: 154px 0px;
+}
 
-.section-last__address{
-  width: 285px;
-  font-style: normal;
+
+.section-last__little__box{
+  width: 490px;
+  margin-left: auto;
+   
+  
+}
+
+
+.section-last__box__herro{
+  margin: 0px;
+  font-size: 50px;
+  line-height: 60px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.section-last__box__poragraf{
+  margin: 0px;
+  padding-left: 40px;
+  border-left: 3px solid #fff ;
+  line-height: 24px;
+  margin: 30px 0px;
+  color: #fff;
   font-weight: 400;
-  line-height: 26px;
-  color:#333D4B ;
+
 }
 
-.section-last__item--active{
-  margin-left: 108px;
-  margin-right: 125px;
+
+.section-last__box__link{
+  display: block;
+  // padding: 12px 38.5px;
+  padding: 12px 0px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #EA625C ;
+  opacity: 0.7;
+  color: #fff;
+  width: 183px;
+  font-weight: 700;
+  font-size: 18px;
+  transition:background-color 0.4s ;
+
+
+  &:hover{
+    opacity: 1;
+  }
+  
 }
